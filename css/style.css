@@ -115,11 +115,13 @@ nav a:hover { color: var(--primary); }
 }
 .tagline { color: var(--muted); }
 .avatar {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, var(--primary), var(--primary-2));
-  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.25), 0 10px 30px rgba(34, 211, 238, 0.2), 0 0 80px rgba(124, 58, 237, 0.25) inset;
+  object-fit: cover;
+  object-position: 50% 40%;
+  margin-top: 12px;
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.25), 0 10px 30px rgba(34, 211, 238, 0.2);
 }
 
 /* Sections */
